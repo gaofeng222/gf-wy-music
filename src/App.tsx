@@ -5,6 +5,7 @@ import { Button } from 'antd'
 function App() {
 	return (
 		<div className="App">
+			<h2>标题</h2>
 			<Button type="primary">提交</Button>
 		</div>
 	)
