@@ -14,7 +14,9 @@ module.exports = {
 			resolve: {
 				extensions: ['.js', '.jsx', '.json', '.css', 'tsx']
 			}
-		}
+		},
+		// 配置公共路径
+		publicPath: process.env.NODE_ENV === 'production' ? '/gf-wy-music/' : './'
 	},
 	style: {
 		// 配置scss
