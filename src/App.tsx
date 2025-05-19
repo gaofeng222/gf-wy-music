@@ -1,14 +1,10 @@
 import React from 'react'
-import '@/App.css'
-import { Button } from 'antd'
+import '@/App.scss'
+import { useRoutes } from 'react-router-dom'
+import routes from '@/router'
 
 function App() {
-	return (
-		<div className="App">
-			<h2>标题2222</h2>
-			<Button type="primary">提交</Button>
-		</div>
-	)
+	return <div className="app">{useRoutes(routes)}</div>
 }
 
 export default App

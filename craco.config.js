@@ -12,7 +12,7 @@ module.exports = {
 		// 省略文件扩展名s
 		configure: {
 			resolve: {
-				extensions: ['.js', '.jsx', '.json', '.css', 'tsx']
+				extensions: ['.js', '.jsx', '.json', '.css', '.tsx', '.ts']
 			}
 		},
 		// 配置公共路径
