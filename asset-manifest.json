@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/gf-wy-music/static/css/main.f855e6bc.css",
-    "main.js": "/gf-wy-music/static/js/main.dbfaf0c3.js",
+    "main.css": "/gf-wy-music/static/css/main.34da6ffe.css",
+    "main.js": "/gf-wy-music/static/js/main.a5b3ac1f.js",
     "index.html": "/gf-wy-music/index.html",
-    "main.f855e6bc.css.map": "/gf-wy-music/static/css/main.f855e6bc.css.map",
-    "main.dbfaf0c3.js.map": "/gf-wy-music/static/js/main.dbfaf0c3.js.map"
+    "main.34da6ffe.css.map": "/gf-wy-music/static/css/main.34da6ffe.css.map",
+    "main.a5b3ac1f.js.map": "/gf-wy-music/static/js/main.a5b3ac1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.dbfaf0c3.js"
+    "static/css/main.34da6ffe.css",
+    "static/js/main.a5b3ac1f.js"
   ]
 }
