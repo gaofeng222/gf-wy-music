@@ -2,11 +2,11 @@ import React, { memo } from 'react'
 interface IProps {
 	children?: React.ReactNode
 }
-const Home: React.FC<IProps> = () => {
+const Mine: React.FC<IProps> = () => {
 	return (
 		<div>
-			<div>Home</div>
+			<div>Mine</div>
 		</div>
 	)
 }
-export default memo(Home)
+export default memo(Mine)
