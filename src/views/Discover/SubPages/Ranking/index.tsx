@@ -2,11 +2,12 @@ import React, { memo } from 'react'
 interface IProps {
 	children?: React.ReactNode
 }
-const Download: React.FC<IProps> = () => {
+
+const Ranking: React.FC<IProps> = () => {
 	return (
 		<div>
-			<div>Download</div>
+			<div>Ranking</div>
 		</div>
 	)
 }
-export default memo(Download)
+export default memo(Ranking)

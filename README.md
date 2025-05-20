@@ -37,3 +37,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 自动部署
 https://cra.nodejs.cn/docs/deployment
+
+## redux
+
+https://www.redux.org.cn/introduction/GettingStarted.html
