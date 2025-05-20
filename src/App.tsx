@@ -49,6 +49,7 @@ function App() {
 				<button onClick={minus}>minus - 2</button>
 				<button onClick={addByAmount}>add by amount</button>
 			</div>
+			<h1 className="text-3xl font-bold underline">Hello world!</h1>
 			<Suspense fallback={<Loading />}>
 				<div>{useRoutes(routes)}</div>
 			</Suspense>
