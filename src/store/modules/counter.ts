@@ -4,11 +4,13 @@ import type { PayloadAction } from '@reduxjs/toolkit'
 export interface CounterState {
 	value: number
 	message: string
+	direction: 'left' | 'right' | 'up' | 'down'
 }
 
 const initialState: CounterState = {
 	value: 0,
-	message: 'hello world'
+	message: 'hello world',
+	direction: 'left'
 }
 const counterSlice = createSlice({
 	name: 'counter',

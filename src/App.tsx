@@ -4,24 +4,25 @@ import { useRoutes } from 'react-router-dom'
 import routes from '@/router'
 import { Link } from 'react-router-dom'
 import Loading from '@c/Loading'
-import { shallowEqual, useDispatch, useSelector } from 'react-redux'
-import type { RootState } from '@/store'
+import { shallowEqual } from 'react-redux'
 import {
 	increment,
 	decrement,
 	incrementByAmount
 } from '@/store/modules/counter'
+import { useAppSelector, useAppDispatch } from './hooks'
 
 function App() {
-	const { count, message } = useSelector(
-		(state: RootState) => ({
+	const { count, message, direction } = useAppSelector(
+		(state) => ({
 			count: state.counter.value,
-			message: state.counter.message
+			message: state.counter.message,
+			direction: state.counter.direction
 		}),
 		shallowEqual
 	)
 
-	const dispatch = useDispatch()
+	const dispatch = useAppDispatch()
 
 	const add = () => {
 		dispatch(increment())
