@@ -7,7 +7,10 @@ module.exports = {
 			'@': path.resolve(__dirname, 'src'),
 			'@a': path.resolve(__dirname, 'src/assets'),
 			'@c': path.resolve(__dirname, 'src/components'),
-			'@v': path.resolve(__dirname, 'src/views')
+			'@v': path.resolve(__dirname, 'src/views'),
+			'@r': path.resolve(__dirname, 'src/router'),
+			'@s': path.resolve(__dirname, 'src/store'),
+			'@u': path.resolve(__dirname, 'src/utils')
 		},
 		// 省略文件扩展名s
 		configure: {

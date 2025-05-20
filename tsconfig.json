@@ -19,7 +19,12 @@
 		"paths": {
 			"@/*": ["./src/*"],
 			"@v/*": ["./src/views/*"],
-			"@c/*": ["./src/components/*"]
+			"@c/*": ["./src/components/*"],
+			"@h/*": ["./src/hooks/*"],
+			"@u/*": ["./src/utils/*"],
+			"@s/*": ["./src/store/*"],
+			"@a/*": ["./src/assets/*"],
+			"@r/*": ["./src/router/*"]
 		}
 	},
 	"include": ["./src/**/*"]

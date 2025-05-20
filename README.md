@@ -41,3 +41,15 @@ https://cra.nodejs.cn/docs/deployment
 ## redux
 
 https://www.redux.org.cn/introduction/GettingStarted.html
+
+## axios 封装的详细教程
+
+https://blog.csdn.net/lunahaijiao/article/details/128246274
+
+## 网易云在线接口
+
+https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=neteasecloudmusicapi
+
+## QQ 音乐在线文档
+
+https://rain120.github.io/qq-music-api/#/?id=api%e6%8e%a5%e5%8f%a3
