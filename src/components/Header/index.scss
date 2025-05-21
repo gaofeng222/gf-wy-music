@@ -1,0 +1,43 @@
+.header{
+    z-index: 1000;
+    height: 70px;
+    box-sizing: border-box;
+    background: #242424;
+    border-bottom: 1px solid #000;
+    &-nav{
+      width: 1100px;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      a{
+          color: #fff;
+          height: 100%;
+          line-height: 69px;
+      }
+      &-left{
+        width: 176px;
+        height: 69px;
+        background: url("~@a/images/app-bg.png") no-repeat 0 -2px;
+        a{
+          width: 157px;
+          padding-right: 20px;
+          text-indent: -9999px;
+          float:left;
+        }
+      }
+      &-right{
+        display: flex;
+        height: 100%;
+        a{
+          padding: 0 20px;
+          display: inline-block;
+          &.active{
+            background: #000;
+          }
+        }
+
+      }
+    }
+    
+}
