@@ -1,13 +1,37 @@
 {
   "files": {
-    "main.css": "/gf-wy-music/static/css/main.34da6ffe.css",
-    "main.js": "/gf-wy-music/static/js/main.a5b3ac1f.js",
+    "main.css": "/gf-wy-music/static/css/main.b0758345.css",
+    "main.js": "/gf-wy-music/static/js/main.06c959c3.js",
+    "static/js/393.4f60c000.chunk.js": "/gf-wy-music/static/js/393.4f60c000.chunk.js",
+    "static/js/144.e120b938.chunk.js": "/gf-wy-music/static/js/144.e120b938.chunk.js",
+    "static/js/869.8ac37ea2.chunk.js": "/gf-wy-music/static/js/869.8ac37ea2.chunk.js",
+    "static/js/411.cabfdef9.chunk.js": "/gf-wy-music/static/js/411.cabfdef9.chunk.js",
+    "static/js/132.7aeb2048.chunk.js": "/gf-wy-music/static/js/132.7aeb2048.chunk.js",
+    "static/js/449.898d12a9.chunk.js": "/gf-wy-music/static/js/449.898d12a9.chunk.js",
+    "static/js/165.b10b7f38.chunk.js": "/gf-wy-music/static/js/165.b10b7f38.chunk.js",
+    "static/js/252.ec8d2058.chunk.js": "/gf-wy-music/static/js/252.ec8d2058.chunk.js",
+    "static/js/361.28ac2be2.chunk.js": "/gf-wy-music/static/js/361.28ac2be2.chunk.js",
+    "static/js/654.9a700ae1.chunk.js": "/gf-wy-music/static/js/654.9a700ae1.chunk.js",
+    "static/js/188.a703e01e.chunk.js": "/gf-wy-music/static/js/188.a703e01e.chunk.js",
+    "static/js/722.5e820db3.chunk.js": "/gf-wy-music/static/js/722.5e820db3.chunk.js",
     "index.html": "/gf-wy-music/index.html",
-    "main.34da6ffe.css.map": "/gf-wy-music/static/css/main.34da6ffe.css.map",
-    "main.a5b3ac1f.js.map": "/gf-wy-music/static/js/main.a5b3ac1f.js.map"
+    "main.b0758345.css.map": "/gf-wy-music/static/css/main.b0758345.css.map",
+    "main.06c959c3.js.map": "/gf-wy-music/static/js/main.06c959c3.js.map",
+    "393.4f60c000.chunk.js.map": "/gf-wy-music/static/js/393.4f60c000.chunk.js.map",
+    "144.e120b938.chunk.js.map": "/gf-wy-music/static/js/144.e120b938.chunk.js.map",
+    "869.8ac37ea2.chunk.js.map": "/gf-wy-music/static/js/869.8ac37ea2.chunk.js.map",
+    "411.cabfdef9.chunk.js.map": "/gf-wy-music/static/js/411.cabfdef9.chunk.js.map",
+    "132.7aeb2048.chunk.js.map": "/gf-wy-music/static/js/132.7aeb2048.chunk.js.map",
+    "449.898d12a9.chunk.js.map": "/gf-wy-music/static/js/449.898d12a9.chunk.js.map",
+    "165.b10b7f38.chunk.js.map": "/gf-wy-music/static/js/165.b10b7f38.chunk.js.map",
+    "252.ec8d2058.chunk.js.map": "/gf-wy-music/static/js/252.ec8d2058.chunk.js.map",
+    "361.28ac2be2.chunk.js.map": "/gf-wy-music/static/js/361.28ac2be2.chunk.js.map",
+    "654.9a700ae1.chunk.js.map": "/gf-wy-music/static/js/654.9a700ae1.chunk.js.map",
+    "188.a703e01e.chunk.js.map": "/gf-wy-music/static/js/188.a703e01e.chunk.js.map",
+    "722.5e820db3.chunk.js.map": "/gf-wy-music/static/js/722.5e820db3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34da6ffe.css",
-    "static/js/main.a5b3ac1f.js"
+    "static/css/main.b0758345.css",
+    "static/js/main.06c959c3.js"
   ]
 }
