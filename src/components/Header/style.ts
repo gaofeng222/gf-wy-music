@@ -8,7 +8,7 @@ export const HeaderWrapper = styled.div`
 	border-bottom: 1px solid #000;
 	.divider {
 		height: 5px;
-		background: #c20c0c;
+		background: var(--sysNavbgColor);
 	}
 `
 
@@ -18,6 +18,7 @@ export const HeaderNav = styled.div`
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	a {
 		color: #fff;
 		height: 100%;
@@ -43,7 +44,7 @@ export const HeaderNavRight = styled.div`
 		display: flex;
 		.item {
 			a {
-				padding: 0 20px;
+				padding: 0 15px;
 				display: inline-block;
 				&.active,
 				&:hover {
@@ -104,6 +105,7 @@ export const NavSearchBox = styled.div`
 	display: flex;
 	align-items: center;
 	gap: 0 20px;
+	margin-left: 40px;
 	.input-box {
 		width: 158px;
 		border-radius: 32px;

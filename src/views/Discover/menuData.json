@@ -1,0 +1,32 @@
+[
+  {
+    "title":"推荐",
+    "type":"path",
+    "to":"recommend"
+  },
+  {
+    "title":"排行榜",
+    "type":"path",
+    "to":"rank"
+  },
+  {
+    "title":"歌单",
+    "type":"path",
+    "to":"songs"
+  },
+  {
+    "title":"主播电台",
+    "type":"path",
+    "to":"djradio"
+  },
+  {
+    "title":"歌手",
+    "type":"path",
+    "to":"artist"
+  },
+  {
+    "title":"新碟上架",
+    "type":"path",
+    "to":"album"
+  }
+]

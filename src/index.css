@@ -26,6 +26,12 @@ html, body, img, iframe {
     
 }
 
+em, i {
+    font-style: normal;
+    text-align: left;
+    font-size: inherit;
+}
+
 /* 精灵图样式 */
 .m-search{
     background: url("@/assets/images/app-bg.png") no-repeat 0 9999px;;

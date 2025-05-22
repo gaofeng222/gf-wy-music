@@ -1,24 +1,39 @@
 import Loading from '@/components/Loading'
 import React, { memo, Suspense } from 'react'
-import { Outlet, Link } from 'react-router-dom'
+import { Outlet, NavLink } from 'react-router-dom'
+import subMenu from './menuData.json'
+import { SubMenuContainer } from './style'
 interface IProps {
 	children?: React.ReactNode
 }
 const Discover: React.FC<IProps> = () => {
+	const showSubMenu = (item: any) => {
+		return (
+			<NavLink
+				to={`/discover/${item.to}`}
+				className={({ isActive }) => {
+					return isActive ? 'active' : ''
+				}}
+			>
+				<em>{item.title}</em>
+			</NavLink>
+		)
+	}
 	return (
-		<div>
+		<>
+			<SubMenuContainer>
+				<ul className="sub-menu-box">
+					{subMenu.map((item) => {
+						return <li key={item.title}>{showSubMenu(item)}</li>
+					})}
+				</ul>
+			</SubMenuContainer>
 			<div>
-				<Link to="/discover/recommend">推荐</Link>
-				<Link to="/discover/rank">排行榜</Link>
-				<Link to="/discover/songs">歌单</Link>
-				<Link to="/discover/djradio">主播电台</Link>
-				<Link to="/discover/songs">歌手</Link>
-				<Link to="/discover/album">新碟上架</Link>
+				<Suspense fallback={<Loading />}>
+					<Outlet />
+				</Suspense>
 			</div>
-			<Suspense fallback={<Loading />}>
-				<Outlet />
-			</Suspense>
-		</div>
+		</>
 	)
 }
 export default memo(Discover)

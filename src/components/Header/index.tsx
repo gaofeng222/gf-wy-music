@@ -58,7 +58,7 @@ const Header: React.FC<IProps> = () => {
 					<div className="nav-items">
 						{navLists.map((item, index) => {
 							return (
-								<div className={classNames('item')}>
+								<div key={index} className={classNames('item')}>
 									{showItem(item, index)}
 								</div>
 							)
