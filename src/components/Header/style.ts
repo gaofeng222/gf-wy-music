@@ -6,6 +6,10 @@ export const HeaderWrapper = styled.div`
 	box-sizing: border-box;
 	background: #242424;
 	border-bottom: 1px solid #000;
+	.divider {
+		height: 5px;
+		background: #c20c0c;
+	}
 `
 
 export const HeaderNav = styled.div`
@@ -37,23 +41,30 @@ export const HeaderNavRight = styled.div`
 	display: flex;
 	.nav-items {
 		display: flex;
-		a {
-			padding: 0 20px;
-			display: inline-block;
-			&.active,
-			&:hover {
-				background: #000;
+		.item {
+			a {
+				padding: 0 20px;
+				display: inline-block;
+				&.active,
+				&:hover {
+					background: #000;
+				}
+				&.active {
+					position: relative;
+					.sub-item {
+						position: absolute;
+						left: 50%;
+						top: 64px;
+						width: 12px;
+						height: 7px;
+						margin-left: -6px;
+						overflow: hidden;
+						background-image: url(${LogoBg});
+						background-repeat: no-repeat;
+						background-position: -226px 0;
+					}
+				}
 			}
-		}
-	}
-	.nav-search {
-		width: 158px;
-		height: 32px;
-		margin-top: 19px;
-		border-radius: 32px;
-		overflow: hidden;
-		input:placeholder-shown {
-			font-size: 12px;
 		}
 	}
 `
@@ -66,4 +77,39 @@ export const Button = styled.button<{ $primary?: boolean }>`
 	padding: 0.25em 1em;
 	border: 2px solid #bf4f74;
 	border-radius: 3px;
+`
+export const CreatorButton = styled.button`
+	width: 90px;
+	height: 32px;
+	box-sizing: border-box;
+	border: 1px solid #4f4f4f;
+	line-height: 32px;
+	color: #ccc;
+	border-radius: 20px;
+	&:hover {
+		color: #fff;
+		border: 1px solid #ccc;
+	}
+`
+export const LoginButton = styled.button`
+	height: 32px;
+	padding: 0 10px;
+	color: #ccc;
+	&:hover {
+		color: #fff;
+		text-decoration: underline;
+	}
+`
+export const NavSearchBox = styled.div`
+	display: flex;
+	align-items: center;
+	gap: 0 20px;
+	.input-box {
+		width: 158px;
+		border-radius: 32px;
+		overflow: hidden;
+	}
+	input:placeholder-shown {
+		font-size: 12px;
+	}
 `

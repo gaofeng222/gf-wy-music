@@ -1,19 +1,53 @@
 import React, { memo } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { Input } from 'antd'
 import { SearchOutlined } from '@ant-design/icons'
-
+import navLists from './data.json'
+import classNames from 'classnames'
 import {
 	HeaderWrapper,
 	HeaderNav,
 	HeaderNavRight,
 	HeaderNavLeft,
-	Button
+	CreatorButton,
+	LoginButton,
+	NavSearchBox
 } from './style'
 interface IProps {
 	children?: React.ReactNode
 }
 const Header: React.FC<IProps> = () => {
+	const [currentIndex, setCurrentIndex] = React.useState<number>(0)
+
+	const showItem = (item: any, index: number) => {
+		if (item.type === 'path') {
+			return (
+				<NavLink
+					to={item.to}
+					className={({ isActive }) => {
+						if (isActive) {
+							setCurrentIndex(index)
+						}
+						return isActive ? 'active' : ''
+					}}
+				>
+					{item.title}
+					{index === currentIndex ? <span className="sub-item"></span> : null}
+				</NavLink>
+			)
+		} else {
+			return (
+				<a target="_blank" href={item.to}>
+					{item.title}
+				</a>
+			)
+		}
+	}
+
+	const handleTab = (index: number) => {
+		setCurrentIndex(index)
+	}
+
 	return (
 		<HeaderWrapper>
 			<HeaderNav>
@@ -22,23 +56,27 @@ const Header: React.FC<IProps> = () => {
 				</HeaderNavLeft>
 				<HeaderNavRight>
 					<div className="nav-items">
-						<Link className="active" to="/discover">
-							发现音乐
-						</Link>
-						<Link to="/mine">我的音乐</Link>
-						<Link to="/focus">关注</Link>
-						<Link to="/focus">商城</Link>
-						<Link to="/focus">音乐人</Link>
-						<Link to="/download">下载客户端</Link>
+						{navLists.map((item, index) => {
+							return (
+								<div className={classNames('item')}>
+									{showItem(item, index)}
+								</div>
+							)
+						})}
 					</div>
-					<div className="nav-search">
-						<Input
-							prefix={<SearchOutlined />}
-							placeholder="音频/视频/电台/用户"
-						/>
-					</div>
+					<NavSearchBox>
+						<div className="input-box">
+							<Input
+								prefix={<SearchOutlined />}
+								placeholder="音频/视频/电台/用户"
+							/>
+						</div>
+						<CreatorButton>创作者中心</CreatorButton>
+						<LoginButton>登录</LoginButton>
+					</NavSearchBox>
 				</HeaderNavRight>
 			</HeaderNav>
+			<div className="divider"></div>
 		</HeaderWrapper>
 	)
 }
