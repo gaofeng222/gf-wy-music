@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgf_wy_music=self.webpackChunkgf_wy_music||[]).push([[654],{654:(s,e,c)=>{c.r(e),c.d(e,{default:()=>l});var u=c(43),i=c(579);const d=()=>(0,i.jsx)("div",{children:(0,i.jsx)("div",{children:"Album"})}),l=(0,u.memo)(d)}}]);
-//# sourceMappingURL=654.9a700ae1.chunk.js.map
