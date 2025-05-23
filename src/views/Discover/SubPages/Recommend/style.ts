@@ -61,3 +61,24 @@ export const LoginButton = styled.a.attrs({
 	margin: 180px 0 0 19px;
 	text-indent: -9999px;
 `
+export const RecommendWrapper = styled.div`
+	margin-top: 20px;
+	width: 980px;
+	border: 1px solid #d3d3d3;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+`
+export const RecommendLeft = styled.div`
+	width: 720px;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: red;
+`
+
+export const RecommendRight = styled.div`
+	width: 250px;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: aliceblue;
+`
