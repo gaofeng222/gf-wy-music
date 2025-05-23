@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/gf-wy-music/static/css/main.a08f5b73.css",
-    "main.js": "/gf-wy-music/static/js/main.d9b59dab.js",
+    "main.js": "/gf-wy-music/static/js/main.00699301.js",
     "static/js/858.a81121a0.chunk.js": "/gf-wy-music/static/js/858.a81121a0.chunk.js",
     "static/js/144.b681d97d.chunk.js": "/gf-wy-music/static/js/144.b681d97d.chunk.js",
     "static/js/869.34ec75c7.chunk.js": "/gf-wy-music/static/js/869.34ec75c7.chunk.js",
     "static/js/411.44225bc4.chunk.js": "/gf-wy-music/static/js/411.44225bc4.chunk.js",
     "static/js/132.dad625a6.chunk.js": "/gf-wy-music/static/js/132.dad625a6.chunk.js",
-    "static/js/299.f77699dc.chunk.js": "/gf-wy-music/static/js/299.f77699dc.chunk.js",
+    "static/js/562.d3c239e2.chunk.js": "/gf-wy-music/static/js/562.d3c239e2.chunk.js",
     "static/js/165.aed5dedd.chunk.js": "/gf-wy-music/static/js/165.aed5dedd.chunk.js",
     "static/js/252.fe48e268.chunk.js": "/gf-wy-music/static/js/252.fe48e268.chunk.js",
     "static/js/361.73784b63.chunk.js": "/gf-wy-music/static/js/361.73784b63.chunk.js",
@@ -17,13 +17,13 @@
     "static/media/banner-login.png": "/gf-wy-music/static/media/banner-login.c6e55e275531c0948158.png",
     "index.html": "/gf-wy-music/index.html",
     "main.a08f5b73.css.map": "/gf-wy-music/static/css/main.a08f5b73.css.map",
-    "main.d9b59dab.js.map": "/gf-wy-music/static/js/main.d9b59dab.js.map",
+    "main.00699301.js.map": "/gf-wy-music/static/js/main.00699301.js.map",
     "858.a81121a0.chunk.js.map": "/gf-wy-music/static/js/858.a81121a0.chunk.js.map",
     "144.b681d97d.chunk.js.map": "/gf-wy-music/static/js/144.b681d97d.chunk.js.map",
     "869.34ec75c7.chunk.js.map": "/gf-wy-music/static/js/869.34ec75c7.chunk.js.map",
     "411.44225bc4.chunk.js.map": "/gf-wy-music/static/js/411.44225bc4.chunk.js.map",
     "132.dad625a6.chunk.js.map": "/gf-wy-music/static/js/132.dad625a6.chunk.js.map",
-    "299.f77699dc.chunk.js.map": "/gf-wy-music/static/js/299.f77699dc.chunk.js.map",
+    "562.d3c239e2.chunk.js.map": "/gf-wy-music/static/js/562.d3c239e2.chunk.js.map",
     "165.aed5dedd.chunk.js.map": "/gf-wy-music/static/js/165.aed5dedd.chunk.js.map",
     "252.fe48e268.chunk.js.map": "/gf-wy-music/static/js/252.fe48e268.chunk.js.map",
     "361.73784b63.chunk.js.map": "/gf-wy-music/static/js/361.73784b63.chunk.js.map",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.a08f5b73.css",
-    "static/js/main.d9b59dab.js"
+    "static/js/main.00699301.js"
   ]
 }
