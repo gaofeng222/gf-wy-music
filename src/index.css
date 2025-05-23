@@ -36,3 +36,38 @@ em, i {
 .m-search{
     background: url("@/assets/images/app-bg.png") no-repeat 0 9999px;;
 }
+
+.banner-box{
+  /* background-image: url(http://p1.music.126.net/qzVEiaMZ5Efj27SOxBRnmA==/109951171009756975.jpg?imageView&blur=40x20); */
+  background-size: 6000px;
+  background-position: center center;
+}
+
+.ant-carousel .slick-prev{
+  left: -50px;
+  &::after {
+    top:25px;
+    left:15px;
+  }
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next{
+  height: 63px;
+  width:38px;
+  opacity: 1;
+  z-index: 2;
+  color: white;
+  font-size: 20px;
+}
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.ant-carousel .slick-next{
+  right: -304px;
+  &::after {
+    top:25px;
+    left:10px;
+  }
+}

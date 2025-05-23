@@ -1,10 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit'
 import counterReducer from './modules/counter'
+import recommendReducer from './modules/recommend'
 
 export const store = configureStore({
 	// 多个reducer合并成一个rootReducer
 	reducer: {
-		counter: counterReducer
+		counter: counterReducer,
+		recommend: recommendReducer
 	}
 })
 
