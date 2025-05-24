@@ -20,7 +20,6 @@ export const BannerBoxContainer = styled.div<BannerPropers>`
 		height: 270px;
 		width: 982px;
 		margin: 0 auto;
-		background-color: red;
 		display: flex;
 		position: relative;
 	}
@@ -67,18 +66,15 @@ export const RecommendWrapper = styled.div`
 	border: 1px solid #d3d3d3;
 	display: flex;
 	margin: 0 auto;
-	justify-content: space-between;
 `
 export const RecommendLeft = styled.div`
-	width: 720px;
-	padding: 20px;
-	box-sizing: border-box;
-	background-color: red;
+	width: 730px;
+	padding: 20px 20px 40px;
 `
 
 export const RecommendRight = styled.div`
 	width: 250px;
-	padding: 20px;
-	box-sizing: border-box;
 	background-color: aliceblue;
+	/* padding: 20px; */
+	flex-shrink: 0;
 `

@@ -26,6 +26,12 @@ html, body, img, iframe {
     
 }
 
+#root{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
 em, i {
     font-style: normal;
     text-align: left;
@@ -70,4 +76,18 @@ em, i {
     top:25px;
     left:10px;
   }
+}
+
+.s-bg, .v-hd2, .n-disk li {
+    background: url("~@a/images/icon-bg.png") no-repeat 0 9999px;
+}
+
+.u-cover .bottom, .u-cover .msk, .n-musicsd .lst .avatar .msk {
+    background: url("~@a/images/opacity-bg.png") no-repeat 0 9999px;
+    _background: url("~@a/images/opacity-bg.png") no-repeat 0 9999px;
+}
+
+.u-cover .ply, .u-cover .icon-headset, .u-cover .icon-play, .u-face .msk, .n-note .head .msk, .icn-vip, .icn-daren, .u-checkbox {
+    background: url("~@a/images/play-icon.png") no-repeat 0 9999px;
+    _background: url("~@a/images/play-icon.png") no-repeat 0 9999px;
 }

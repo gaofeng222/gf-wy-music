@@ -28,9 +28,13 @@ service.interceptors.request.use(
 service.interceptors.response.use(
 	(res: AxiosResponse) => {
 		console.log('🚀 ~ res:', res)
-		const { code, message, banners } = res.data
+		const { code, message, banners, result } = res.data
 		if (code === 200) {
-			return banners
+			if (banners) {
+				return banners
+			} else if (result) {
+				return result
+			}
 		} else {
 			// TODO: 这里可以封装一个统一的提示弹窗，提示错误信息
 			return Promise.reject(new Error(message ? message : ''))
